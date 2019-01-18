@@ -1,0 +1,22 @@
+#!usr/bin/env python2
+
+import socket
+import threading
+ip="127.0.0.1"
+port=9090
+s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)  # AF_INET is for ipv4 and SOCK_DGRAM is for UDP
+
+# sending messahe to target
+def sending():
+	while True:
+		data=raw_input("type your message:\n ")
+	# it will send data to receiver as well as create its own socket(own ip and random port)
+		s.sendto(data,(ip,port)) # providing a way to connect	
+def receiving():
+	while True:
+		print "reply: " + s.recvfrom(10)[0]
+t1=threading.Thread(target=sending,args=())	
+t1=threading.Thread(target=receiving,args=())	
+t1.start
+t2.start
+

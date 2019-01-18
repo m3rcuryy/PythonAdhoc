@@ -1,8 +1,8 @@
 from selenium import webdriver 
 from time import sleep 
 
-usr="himanshugrg151@gmail.com"
-pwd="check"
+usr=raw_input("enter username:\n")
+pwd==raw_input("enetr password:\n")
 
 driver = webdriver.Firefox() 
 driver.get('https://www.facebook.com/') 

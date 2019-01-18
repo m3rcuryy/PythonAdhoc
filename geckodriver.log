@@ -1,0 +1,42 @@
+1547010099064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.66zTshvQ19rr"
+1547010111028	Marionette	INFO	Listening on port 2828
+1547010206160	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DkhYV0k3uaTr"
+1547010217426	Marionette	INFO	Listening on port 2828
+1547010285433	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dbN6MgPIib5Y"
+1547010297228	Marionette	INFO	Listening on port 2828
+1547011138413	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.O5x9HJYRBhz1"
+1547011154294	Marionette	INFO	Listening on port 2828
+1547012577093	geckodriver	INFO	Listening on 127.0.0.1:59207
+1547012578002	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.BMnTYW0wQZrW
+1547012578004	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1547012578300	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33370
+1547012589906	Marionette	INFO	Listening on port 33370
+1547012590346	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 106: TypeError: this._recipeManager is null
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 106: TypeError: this._recipeManager is null
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+1547012909468	geckodriver	INFO	Listening on 127.0.0.1:32969
+1547012910540	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ZcC4aeE4sNJD
+1547012910542	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1547012910700	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44832
+1547012921930	Marionette	INFO	Listening on port 44832
+1547012922302	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1547016340115	geckodriver	INFO	Listening on 127.0.0.1:56340
+1547016341107	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.SXhXRppzkadO
+1547016341108	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1547016341255	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43927
+1547016363264	Marionette	INFO	Listening on port 43927
+1547016363776	Marionette	WARN	TLS certificate errors will be ignored for this session
+1547016459320	geckodriver	INFO	Listening on 127.0.0.1:34247
+1547016459424	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.7kXTPM3kcPSU
+1547016459426	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1547016459431	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46682
+1547016464488	Marionette	INFO	Listening on port 46682
+1547016464804	Marionette	WARN	TLS certificate errors will be ignored for this session
