@@ -16,14 +16,14 @@ for  url  in   webdata:
 	print url
 	time.sleep(2)
 	#url="https://en.wikipedia.org/wiki/Facebook"
-	r=requests.get(url)
-	data=r.text
-	soup=BeautifulSoup(data,'html.parser')
-	scrap=""
+	res=requests.get(url)
+	html_code=res.text
+	soup=BeautifulSoup(html_code,'html.parser')
+	data=""
 	for temp in soup.find_all('p'):
-        	scrap=scrap+temp.text
-	print scrap
+        	data=data+temp.text
+	print data
 	time.sleep(2)
-	final_data.append(scrap)
+	final_data.append(data)
 
 
