@@ -1,0 +1,12 @@
+#!/usr/bin/python2
+
+import  sys
+#import re
+import os
+file_name=sys.argv[1:]
+
+for  i  in  file_name:
+	f=open(i,'r')
+	print f.read()
+	f.close()
+	
